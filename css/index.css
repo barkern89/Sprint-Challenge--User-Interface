@@ -52,13 +52,13 @@ table {
 }
 
 html, body {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    margin-top: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -214,4 +214,52 @@ header nav a {
 
 .middle-content .boxes .box:nth-child(10) {
     background-color: dodgerblue;
+}
+
+
+.about-header-paragraph {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: normal;
+    border-bottom: 1px dashed black;
+}
+
+.main-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding-bottom: 20px; */
+ }
+
+
+.content-container {
+    width: 371px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-bottom: 1px dashed black; */
+    margin: 8px 5px 8px 5px
+}
+
+.content-container:nth-child(1) {
+    border-bottom: 1px dashed black;
+}
+
+.content-container:nth-child(2) {
+    border-bottom: 1px dashed black;
+}
+
+
+button {
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.working-together {
+    margin-top: 15px;
+    border-top: 1px dashed black;
 }
