@@ -144,3 +144,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+}
+
+.lambda-black-logo {
+    margin-top: 20px;
+    margin-right: 65px;
+}
